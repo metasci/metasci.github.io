@@ -71,12 +71,14 @@ body {
 
 #about {
   font-family: Bangers;
-	background-image: url('http://www.hdfreeimages.in/wp-content/uploads/2016/01/Awesome-scenery-with-walking-road-wallpaper.jpg');
+  background-image: url('http://www.hdfreeimages.in/wp-content/uploads/2016/01/Awesome-scenery-with-walking-road-wallpaper.jpg');
   background-attachment: fixed;
   border-top: 1px solid grey;
   background-position: fixed;
   background-size: cover;
   margin: auto;
+  padding-top: 25%;
+  padding-bottom: 25%; 
 }
 
 #about h2 {
