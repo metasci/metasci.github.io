@@ -5,7 +5,8 @@ body {
 
 .navbar {
   border-bottom: 3px solid #404040;
-  background-color: rgba(80, 80, 80, 0.7);
+  background-color: #505050;
+  opacity: .7;
 }
 
 
