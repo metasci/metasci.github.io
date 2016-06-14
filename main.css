@@ -4,8 +4,7 @@ body {
 
 
 .navbar {
-  border-bottom: 3px solid #303030;
-  background-color: #111;
+  background-color: #505050;
   opacity: .7;
 }
 
@@ -77,8 +76,8 @@ body {
   background-position: fixed;
   background-size: cover;
   margin: auto;
-  padding-top: 25%;
-  padding-bottom: 25%; 
+  padding-top: 20%;
+  padding-bottom: 20%; 
 }
 
 #about h2 {
@@ -134,8 +133,8 @@ body {
     url('http://www.hd-wallpapersdownload.com/script/bulk-upload/desktop-dog-wallpaper-hd-dowload.jpg');
   border-top: 1px solid grey;
   margin: auto;
-  padding-top: 25%;
-  padding-bottom: 25%; 
+  padding-top: 20%;
+  padding-bottom: 20%; 
 }
 
 #contact h2 {
