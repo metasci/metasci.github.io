@@ -1,0 +1,200 @@
+body {
+  background-color: grey
+}
+
+.jumbotron {
+/* 	height: 1000px; */
+}
+
+
+.navbar {
+  border-bottom: 3px solid #404040;
+  background-color: rgba(80, 80, 80, 0.7);
+}
+
+
+.navbar ul {
+  border-radius: 10px;
+  background-color: lightgrey;
+  font-family: Yanone Kaffeesatz;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.jumbotron{
+  padding-top: 20%;
+	padding-bottom: 20%; 
+}
+
+
+#home {
+  background-size: cover;
+	padding: 10% 0 30% 0;
+  margin: auto;
+  font-family: "Lobster";
+  color: lightgrey;
+  background-image: url("http://cdn.cultofmac.com/wp-content/uploads/2015/04/macbook-keyboard-backlit.jpg");
+  background-attachment: fixed;
+}
+
+#home h1 {
+  color: grey;
+  font-size: 120px;
+  text-shadow: -4px 2px 5px #ffffff;
+}
+
+#home p {
+  font-size: 30px;
+}
+
+#home #link {
+  padding-top: 75px;
+}
+
+#home .btn {
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-family: Yanone Kaffeesatz;
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: -4px 2px 5px #ffffff;
+  letter-spacing: 2px;
+  transition: .2s;
+}
+
+#home .btn:hover {
+  text-shadow: none;
+  background-color: black;
+  color: blue;
+  transition: .2s;
+  transform: scale(1.03);
+}
+
+
+#about {
+  font-family: Bangers;
+	background-image: url('http://www.hdfreeimages.in/wp-content/uploads/2016/01/Awesome-scenery-with-walking-road-wallpaper.jpg');
+  background-attachment: fixed;
+  border-top: 1px solid grey;
+  background-position: fixed;
+  background-size: cover;
+  margin: auto;
+}
+
+#about h2 {
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-shadow:-7px 4px 5px black;
+  color: lightgrey;
+}
+
+#about #description {
+  
+  letter-spacing: 1px;
+  color: #262626;
+  background-color: rgba(211, 211, 211, .9);
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+
+#about img {
+  margin-left: 100px;
+  border-radius: 50px;
+  border: 2px solid grey;
+  height: 250px;
+  width: 250px;
+}
+
+#portfolio {
+  margin: auto;
+  border-top: 1px solid grey;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 15% 100px 15% 100px;
+  background-image:    url('http://img0.gtsstatic.com/wallpapers/cb6b5c7e8702036119751ed848cd744f_large.jpeg');
+}
+
+
+
+#portfolio .sub {
+  background-color: lightgrey;
+  border-radius: 10px;
+	display: inline-block;
+  margin: 1%;
+	width: 31%;
+}
+
+
+#contact {
+  margin: auto;
+  background-size: cover;
+/*   padding-top: 200px; */
+  padding-bottom: 200px;
+  border-top: 1px solid grey;
+  background-attachment: fixed;
+  background-image:
+    url('http://www.hd-wallpapersdownload.com/script/bulk-upload/desktop-dog-wallpaper-hd-dowload.jpg');
+}
+
+#contact h2 {
+  padding: 20px;
+  font-family: Bangers;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-shadow:-4px 2px 5px black;
+  color: lightgrey;
+}
+
+
+
+
+#contact p {
+  font-size: 35px;
+  font-family: Yanone Kaffeesatz;
+  letter-spacing: 2px;
+  color: lightgrey;
+  text-shadow:-3px 2px 3px black;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+#contact #link li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+#contact #link .btn {
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-family: Yanone Kaffeesatz;
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: -4px 2px 5px #ffffff;
+  letter-spacing: 2px;
+  transition: .2s;
+}
+
+#contact #link .btn:hover {  
+  text-shadow: none;
+  background-color: black;
+  color: blue;
+  transition: .2s;
+  transform: scale(1.03);
+}
+
+#foot {
+  border-top: 1px solid grey;
+  background-color: lightgrey;
+  padding: 40px;
+}
+
+#foot li {
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+
