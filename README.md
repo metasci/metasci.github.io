@@ -6,6 +6,7 @@
 - about
 
 -portfolio
-	- add technologies section
+	X- add technologies section
+	- add project links
 
 -contact
