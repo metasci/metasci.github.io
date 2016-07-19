@@ -4,9 +4,7 @@
 ### To-Do
 
 - about
-
--portfolio
-	X- add technologies section
-	- add project links
+		-spice it up, you can do better than current description
 
 -contact
+		-direct message form
