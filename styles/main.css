@@ -71,7 +71,7 @@ body {
 
 #about {
   font-family: Yanone Kaffeesatz;
-  background-image: url('http://www.loversiq.com/daut/as/f/a/awesome-scenery-with-walking-road-wallpaper-hd-wallpapers_awesome-scenery-photos_home-decor_shabby-chic-home-decor-tuscan-nautical-walmart-store-rustic-beach-decorator-collection-office-decorating-ide.jpg');
+  background-image: url('../images/iceland_waterfall.jpg');
   background-attachment: fixed;
   border-top: 1px solid grey;
   background-position: fixed;
@@ -101,11 +101,11 @@ body {
 }
 
 #about img {
-  margin-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 50px;
   border: 2px solid grey;
-  height: 250px;
-  width: 250px;
+  width: max-content;
 }
 
 
@@ -125,7 +125,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   padding: 10% 100px 10% 100px;
-  background-image: url('https://www.walldevil.com/wallpapers/a65/map-earth.jpg');
+  background-image: url('../images/camels.jpg');
 }
 @media screen and (max-width: 1000px) {
   #portfolio {
@@ -177,13 +177,22 @@ body {
   position: relative;
   overflow: hidden;
 }
-#portfolio .projects img {
+#portfolio .projects .box.big {
+  height: 200px;
+  width: fit-content;
+}
+#portfolio .projects  img {
   display: inline-block;
   position: absolute;
   margin: 0;
   height: 200px;
   width: 250px;
   z-index: 1;
+}
+#portfolio .projects .big img {
+  height: 200px;
+  width: auto;
+  object-fit: fill;
 }
 #portfolio .projects .shade {
   display: inline-block;
@@ -192,6 +201,10 @@ body {
   height: 200px;
   width: 250px;
   z-index: 2;
+}
+#portfolio .projects .big .shade {
+  height: 200px;
+  width: -webkit-fill-available;
 }
 #portfolio .projects .shade:hover {
   background-color: rgba(0, 0, 0, 0.5);
@@ -213,17 +226,48 @@ body {
 
 #portfolio .projects .row {
   margin: 0 auto;
-  /*border: 4px solid black;*/
   text-align: center;
 }
 
+#portfolio .big-shade {
+  background-color: black;
+  position: relative;
+}
 
+#portfolio .big-shade img {
+  width: auto;
+  position: relative;
+  opacity: 1.0;
+}
+
+#portfolio .big-shade:hover img {
+  opacity: 0.5;
+}
+
+#portfolio .big-shade .text {
+  display: none;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  font-size: 25px;
+  width: 100%;
+  background-color: black;
+}
+
+#portfolio .big-shade:hover .text {
+  display: block;
+}
 
 #contact {
   background-size: cover;
   background-attachment: fixed;
   background-image:
-    url('http://www.hd-wallpapersdownload.com/script/bulk-upload/desktop-dog-wallpaper-hd-dowload.jpg');
+    url('../images/llama.webp');
   border-top: 1px solid grey;
   margin: auto;
   padding-top: 20%;
